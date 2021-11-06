@@ -1,0 +1,8 @@
+{
+  "TC001_Admin_SearchEmployee": {
+	  "username":"Admin",
+	  "password":"admin123",
+	  "planType": "XCD003",
+	  "archive": "67y999"
+  }
+}

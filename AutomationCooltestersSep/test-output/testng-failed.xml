@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="4" parallel="tests" name="Failed suite [QA_Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="TC002(failed)">
     <classes>
-      <class name="com.google.GoogleTest">
+      <class name="com.opensource.qa.Admin">
         <methods>
-          <include name="f"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
+          <include name="TC002_Admin_SearchEmployee_NotExist"/>
         </methods>
-      </class> <!-- com.google.GoogleTest -->
+      </class> <!-- com.opensource.qa.Admin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TC002(failed) -->
+</suite> <!-- Failed suite [QA_Regression] -->
